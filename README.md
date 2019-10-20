@@ -4,6 +4,26 @@ wget --no-check-certificate https://raw.githubusercontent.com/arsanto/InstallYTU
 
 wget --no-check-certificate https://raw.githubusercontent.com/arsanto/InstallYTUbuntu14.04-64-bit/master/ytnoffmpeg && chmod +x ytnoffmpeg && ./ytnoffmpeg
 
+=============================
+
+#error AttributeError: 'module' object has no attribute 'file'
+
+buka folder yt upload 
+
+edit main.py
+
+tambahin
+
+from oauth2client import file
+
+http://prntscr.com/plv9wf
+
+save terus pada folder yt-upload install manual 
+
+python setup.py install
+
+=============================
+
 
 
 #manual bikin json
